@@ -1,5 +1,22 @@
+<div align="center" style="font-family: Arial, sans-serif; font-size: 20px; line-height: 1.5;">
+
+# 🌟 **Curso Dpcn-EDN** 🌟
+# 🌟 Solutions Architect Associate  🌟
+
+###
+<a href="https://escoladanuvem.org"><a href="https://aws.amazon.com/pt/?nc2=h_lg">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/2560px-Amazon_Web_Services_Logo.svg.png" width="180" alt="AWS Logo">
+</a>
+<img src="https://miro.medium.com/v2/resize:fit:512/0*81xCYukT_2jKzxgJ.png" width="80" alt="AWS Logo">- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBfRQV8LLwGpQciyGQ2drjckBDVvZCECVdzA&s" width="80" alt="AWS Logo">-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ47Ji1yhUawSLNBXPp8UERlP7nKo3d1f2EKw&s" width="80" alt="AWS Logo">- 
+    <img src="https://github.com/HalleyVeras/Escola_da_Nuvem/blob/main/Documentos/download%20(4)_processed.png?raw=true" width="210" alt="Second Image">
+</a>
+</div>
+
+
 # 🏗️ Laboratório 6: Auto Scaling e Load Balancing na AWS
 
+**Turma:** Dpcn 07  
+**Aluno:** Halley Veras 
 ## 📌 Objetivos
 Este laboratório ensina como configurar um ambiente web altamente disponível e escalável na **AWS**, utilizando:
 
@@ -25,7 +42,12 @@ Este laboratório ensina como configurar um ambiente web altamente disponível e
 4. Anote o **ID da VPC** (`vpc-xxxxxxxxxxxxxxxxx`).
 5. Verifique as **subnets** disponíveis e anote os IDs (`subnet-xxxxxxxxxxxxxxxxx`).
 
-📸 **Print da VPC padrão:** _(Insira o print aqui)_
+📸 **Print da VPC padrão:** 
+<img src="https://github.com/HalleyVeras/Laboratorio6_CursoDpcn_EDN/blob/main/arquivos1/vpc_painel.jpg?raw=true">-
+<img src="https://github.com/HalleyVeras/Laboratorio6_CursoDpcn_EDN/blob/main/arquivos1/vpc_resourcemap.jpg?raw=true" width="400" alt="AWS Logo">-
+<img src="https://github.com/HalleyVeras/Laboratorio6_CursoDpcn_EDN/blob/main/arquivos1/vpc_copiado.jpg?raw=true" width="400" alt="AWS Logo">-
+
+
 
 ---
 
@@ -40,7 +62,12 @@ Este laboratório ensina como configurar um ambiente web altamente disponível e
      - HTTPS: `0.0.0.0/0`
 3. Salve as configurações.
 
-📸 **Print do Security Group:** _(Insira o print aqui)_
+📸 **Print do Security Group:** 
+
+<img src="https://github.com/HalleyVeras/Laboratorio6_CursoDpcn_EDN/blob/main/arquivos1/create_security_group_01_basic%20details.jpg?raw=true">-
+<img src="https://github.com/HalleyVeras/Laboratorio6_CursoDpcn_EDN/blob/main/arquivos1/create_security_group_02_inboundRoules.jpg?raw=true" width="400" alt="AWS Logo">-
+<img src="https://github.com/HalleyVeras/Laboratorio6_CursoDpcn_EDN/blob/main/arquivos1/create_security_group_03_outbound_padr%C3%A3o.jpg?raw=true" width="400" alt="AWS Logo">-
+<img src="https://github.com/HalleyVeras/Laboratorio6_CursoDpcn_EDN/blob/main/arquivos1/create_security_group_04_sucess.jpg?raw=true" width="400" alt="AWS Logo">-
 
 ---
 
@@ -62,7 +89,16 @@ Este laboratório ensina como configurar um ambiente web altamente disponível e
      ```
 3. Salve e crie o template.
 
-📸 **Print do Launch Template:** _(Insira o print aqui)_
+📸 **Print do Launch Template:** 
+
+<img src="https://github.com/HalleyVeras/Laboratorio6_CursoDpcn_EDN/blob/main/arquivos2/create_templates_01_painel.jpg?raw=true">-
+<img src="https://github.com/HalleyVeras/Laboratorio6_CursoDpcn_EDN/blob/main/arquivos2/create_templates_02_description.jpg?raw=true" width="400" alt="AWS Logo">-
+<img src="https://github.com/HalleyVeras/Laboratorio6_CursoDpcn_EDN/blob/main/arquivos2/create_templates_03_applicationandImages.jpg?raw=true" width="400" alt="AWS Logo">-
+<img src="https://github.com/HalleyVeras/Laboratorio6_CursoDpcn_EDN/blob/main/arquivos2/create_templates_04_instacetype.jpg?raw=true" width="400" alt="AWS Logo">-
+<img src="https://github.com/HalleyVeras/Laboratorio6_CursoDpcn_EDN/blob/main/arquivos2/create_templates_05_keypair.jpg?raw=true" width="400" alt="AWS Logo">-
+<img src="https://github.com/HalleyVeras/Laboratorio6_CursoDpcn_EDN/blob/main/arquivos2/create_templates_06_networkSettings.jpg?raw=true" width="400" alt="AWS Logo">-
+<img src="https://github.com/HalleyVeras/Laboratorio6_CursoDpcn_EDN/blob/main/arquivos2/create_templates_07_advaceddetails.jpg?raw=true" width="400" alt="AWS Logo">-
+<img src="https://github.com/HalleyVeras/Laboratorio6_CursoDpcn_EDN/blob/main/arquivos2/create_templates_08_sucess.jpg?raw=true" width="400" alt="AWS Logo">-
 
 ---
 
@@ -78,39 +114,34 @@ Este laboratório ensina como configurar um ambiente web altamente disponível e
    - **Health Check:** Ativar **Elastic Load Balancer health check**
 3. Finalize a criação.
 
-📸 **Print do Auto Scaling Group:** _(Insira o print aqui)_
+📸 **Print do Auto Scaling Group e Load Balancer:** 
+
+<img src="https://github.com/HalleyVeras/Laboratorio6_CursoDpcn_EDN/blob/main/arquivos3/create_autoscaling_01.jpg?raw=true">-
+<img src="https://github.com/HalleyVeras/Laboratorio6_CursoDpcn_EDN/blob/main/arquivos3/create_autoscaling_02_chooselaunchtemplate.jpg?raw=true" width="400" alt="AWS Logo">-
+<img src="https://github.com/HalleyVeras/Laboratorio6_CursoDpcn_EDN/blob/main/arquivos3/create_autoscaling_03_Network.jpg?raw=true" width="400" alt="AWS Logo">-
+<img src="https://github.com/HalleyVeras/Laboratorio6_CursoDpcn_EDN/blob/main/arquivos3/create_autoscaling_04_Integrate.jpg?raw=true" width="400" alt="AWS Logo">-
+<img src="https://github.com/HalleyVeras/Laboratorio6_CursoDpcn_EDN/blob/main/arquivos3/create_autoscaling_05_Integrate.jpg?raw=true" width="400" alt="AWS Logo">-
+<img src="https://github.com/HalleyVeras/Laboratorio6_CursoDpcn_EDN/blob/main/arquivos3/create_autoscaling_06_createtargetgroup.jpg?raw=true" width="400" alt="AWS Logo">-
+<img src="https://github.com/HalleyVeras/Laboratorio6_CursoDpcn_EDN/blob/main/arquivos3/create_autoscaling_07_healthchecks.jpg?raw=true" width="400" alt="AWS Logo">-
+<img src="https://github.com/HalleyVeras/Laboratorio6_CursoDpcn_EDN/blob/main/arquivos3/create_autoscaling_08_configuregroup.jpg?raw=true" width="400" alt="AWS Logo">-
+<img src="https://github.com/HalleyVeras/Laboratorio6_CursoDpcn_EDN/blob/main/arquivos3/create_autoscaling_09_addnotification.jpg?raw=true" width="400" alt="AWS Logo">-
+<img src="https://github.com/HalleyVeras/Laboratorio6_CursoDpcn_EDN/blob/main/arquivos3/create_autoscaling_10_addtags.jpg?raw=true" width="400" alt="AWS Logo">-
+<img src="https://github.com/HalleyVeras/Laboratorio6_CursoDpcn_EDN/blob/main/arquivos3/create_autoscaling_11_Review.jpg?raw=true" width="400" alt="AWS Logo">-
+<img src="https://github.com/HalleyVeras/Laboratorio6_CursoDpcn_EDN/blob/main/arquivos3/create_autoscaling_12_Review.jpg?raw=true" width="400" alt="AWS Logo">-
 
 ---
 
-### 5️⃣ Criar um Application Load Balancer
-1. Acesse **EC2 > Load Balancers**.
-2. Crie um **Application Load Balancer**:
-   - **Nome:** `ALB-SeuNome`
-   - **Tipo:** Internet-facing
-   - **Security Group:** `SG-Lab-SeuNome`
-   - **Listeners:** HTTP (porta 80)
-   - **Target Group:** Criar um novo target group e adicionar as instâncias do Auto Scaling Group
-3. Finalize a configuração.
+### 5️⃣ Testando o Ambiente
 
-📸 **Print do Load Balancer:** _(Insira o print aqui)_
-
----
-
-### 6️⃣ Testando o Ambiente
 1. Copie o **DNS do Load Balancer** e acesse pelo navegador.
 2. Atualize a página e veja que a instância EC2 muda (balanceamento funcionando!).
 3. Monitore o **Auto Scaling Group** e verifique a criação automática de novas instâncias.
 
-📸 **Print do Teste:** _(Insira o print aqui)_
+📸 **Print do Teste:**
+<img src="https://github.com/HalleyVeras/Laboratorio6_CursoDpcn_EDN/blob/main/arquivos3/task_01.jpg?raw=true">-
+<img src="https://github.com/HalleyVeras/Laboratorio6_CursoDpcn_EDN/blob/main/arquivos3/task_02.jpg?raw=true">-
 
 ---
-
-## 📌 Conclusão
-Parabéns! 🎉 Agora você tem um ambiente web **altamente disponível e escalável** na AWS. Você aprendeu a:
-- Criar e configurar um **Auto Scaling Group**
-- Utilizar **Launch Templates** para gerenciar instâncias
-- Configurar um **Application Load Balancer** para distribuir tráfego
-- Testar e validar a escalabilidade da aplicação
 
 🔎 **Dúvidas ou melhorias? Compartilhe suas experiências!** 🚀
 
